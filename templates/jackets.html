@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    На этой страничке находятся куртки.
+{% endblock %}
+
+{% block buttons %}
+<nav>
+    <ul>
+        <li><a href="/">
+            <right>Главная</right>
+        </a></li>
+        <li><a href="/shoes/">
+            <right>Обувь</right>
+        </a></li>
+    </ul>
+</nav>
+{% endblock %}
+
+{% block body %}
+<body bgcolor="#67123">
+    <main>
+        <section>
+            <h2>Куртки</h2>
+            <p>Здесь вы можете выбрать себе куртку.</p>
+            <img src="https://avatars.mds.yandex.net/i?id=7df95eb8fb69fef92ecd4501f9cf0b4045898e6b-10868764-images-thumbs&n=13" alt="Картинка куртки">
+        </section>
+    </main>
+</body>
+{% endblock %}
